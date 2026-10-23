@@ -1,11 +1,12 @@
-# My Money Household Tracker — Theme Edition
+# My Money Household Tracker — Special Budgets Update
 
-Includes three selectable themes: AMOLED Black + Purple, Purple Luxe, and Royal Blue. Choose a theme in the app under Backup & PIN → Appearance & themes. The choice is stored locally in this browser.
+Mobile-friendly INR household tracker. Features include monthly dashboard, editable transaction names (person field accepts free text), bank accounts, savings goals, reports, backup/restore, recurring templates, PIN lock, AMOLED/Purple Luxe/Royal Blue themes, and a separate **Trips & special budgets** area.
 
-## Publish to GitHub Pages
-1. Back up your current transactions from the existing app before updating.
-2. Extract this ZIP. Upload the files inside `expense_tracker_pwa` to the root of your existing GitHub repository.
-3. Commit the changes to `main` and wait for GitHub Pages to deploy.
-4. Reload the site. If an older version remains, refresh/close and reopen the browser or clear only the site cache (do not clear site storage unless backed up).
+## Publish on GitHub Pages
+1. Export a backup from your current app before replacing files.
+2. Extract this ZIP and upload every file inside `expense_tracker_pwa` to the root of your existing GitHub repository.
+3. Commit to `main`, wait for Pages deployment, then refresh the website.
+4. If the page is cached, close/reopen the site or hard-refresh.
 
-Transactions remain in this browser's local storage. The PIN is a casual-access lock, not encryption.
+## Privacy and data
+Records are stored in this browser's local storage. The trip/special-budget area is kept separate from ordinary transactions and their totals. Exported JSON backups contain private financial data; keep them secure. The PIN is a casual-access lock, not encryption.
