@@ -1,4 +1,4 @@
-const CACHE='my-money-household-v10-trip-payer-filters';
+const CACHE='my-money-household-v11-swipe-navigation';
 const ASSETS=['./','./index.html','./manifest.json','./icon-192.png','./icon-512.png','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);await cache.addAll(ASSETS);await self.skipWaiting()})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)));await self.clients.claim()})()));
