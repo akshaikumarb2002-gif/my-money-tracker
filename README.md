@@ -1,12 +1,5 @@
-# My Money Household Tracker — Theme Fix
+My Money Household Tracker V10
 
-This version adds a dedicated **🎨 Themes** tab to the horizontal navigation so theme selection is easy to find. Choose AMOLED Black + Purple, Purple Luxe, or Royal Blue. The service-worker cache name is updated to encourage the browser to load the corrected interface.
+Features: household finance dashboard, bank accounts, savings goals, transaction tracking, reports, themes (AMOLED Black + Purple, Purple Luxe, Royal Blue), trips/special budgets with payer-wise totals and filters for person, category and date range, backup/restore, PIN lock, and local browser storage.
 
-## Update on GitHub Pages
-1. Keep a backup of your app data.
-2. Extract this ZIP.
-3. Upload every file inside `expense_tracker_pwa` to the root of your existing repository, replacing matching files.
-4. Commit to `main` and wait for GitHub Pages deployment.
-5. Open the website and refresh. If an old page persists, close the tab completely and reopen it; the service worker cache has been versioned.
-
-App records remain in the browser's local storage for the same website origin. Do not clear site data.
+Deploy: upload all files in this folder to the root of your GitHub Pages repository and commit to main. Export a JSON backup before updating. Do not clear site data if you want to preserve local transactions.
