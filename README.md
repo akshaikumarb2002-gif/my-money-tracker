@@ -1,15 +1,11 @@
-# My Money Household Tracker — Account Totals Update
+# My Money Household Tracker — Theme Edition
 
-Mobile-friendly, installable static web app. Transactions and account balances stay in this browser’s local storage.
+Includes three selectable themes: AMOLED Black + Purple, Purple Luxe, and Royal Blue. Choose a theme in the app under Backup & PIN → Appearance & themes. The choice is stored locally in this browser.
 
-## New in this update
-- Monthly totals for each bank account: income/salary, expenses, savings, investments and net.
-- Household grand totals across all accounts for the selected month.
-- Salary totals for Me and Spouse separately, plus income totals and account-wise income breakdown.
-- Transactions without an account are shown as “Unassigned account” so they are not hidden.
+## Publish to GitHub Pages
+1. Back up your current transactions from the existing app before updating.
+2. Extract this ZIP. Upload the files inside `expense_tracker_pwa` to the root of your existing GitHub repository.
+3. Commit the changes to `main` and wait for GitHub Pages to deploy.
+4. Reload the site. If an older version remains, refresh/close and reopen the browser or clear only the site cache (do not clear site storage unless backed up).
 
-## Publish
-Upload all files in this folder to the root of your GitHub repository and commit to `main`. Keep `index.html`, `manifest.json`, `sw.js`, `icon.svg`, `icon-192.png`, and `icon-512.png` at repository root.
-
-## Data safety
-Export a JSON backup before updating. Existing records should remain in browser storage if the site origin and storage key stay the same, but keep a backup. The public site does not upload transactions to a server. PIN is not encryption.
+Transactions remain in this browser's local storage. The PIN is a casual-access lock, not encryption.
